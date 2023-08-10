@@ -14,7 +14,7 @@ const Layout = () => {
   };
   return (
     <div className="container mx-auto">
-      <div className="flex gap-4 justify-center items-center py-2">
+      <div className="flex gap-4 justify-center items-center py-4">
         {menu.map((item) => (
           <NavLink
             to={item.path}

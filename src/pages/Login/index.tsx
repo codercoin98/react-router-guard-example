@@ -7,8 +7,8 @@ const Index = () => {
     navigate('/home');
   };
   return (
-    <div className="h-full justify-center items-center">
-      <div className="flex flex-col gap-4 w-1/2">
+    <div className="flex min-h-[100vh] justify-center items-center">
+      <div className="flex flex-col gap-4 w-1/4">
         <input className="p-2 rounded-lg outline" />
         <input className="p-2 rounded-lg outline" />
         <button
